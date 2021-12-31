@@ -3,7 +3,7 @@
 > **사용 언어 : JAVA**
 <br>
 
-[<img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=tph01198">](https://solved.ac/profile/tph01198)
+[<img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=dongc9173">](https://solved.ac/profile/dongc9173)
 
 ## 📙 알고리즘 문제 사이트
 - [백준](https://www.acmicpc.net/)
