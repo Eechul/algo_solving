@@ -3,6 +3,8 @@
 > **사용 언어 : JAVA**
 <br>
 
+[<img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=tph01198">](https://solved.ac/profile/tph01198)
+
 ## 📙 알고리즘 문제 사이트
 - [백준](https://www.acmicpc.net/)
 - [SWEA](https://swexpertacademy.com/main/main.do)
