@@ -13,14 +13,13 @@ public class Main {
 		int result = 0;
 		for(int i=0; i<N; i++) {
 			int num = Integer.parseInt(st.nextToken());
-			if(num == 2) { result++; continue; }
-			for(int j=2; j<num; j++) {
+			int j;
+			for(j=2; j<num; j++) {
 				if(num % j == 0) {
 					break; 
-				} else if(num-1 == j && num % j != 0) {
-					result++;
 				}
 			}
+			if(num == j) { result++; }
 		}
 		System.out.println(result);
 	}
