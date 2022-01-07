@@ -1,6 +1,9 @@
 > 2021.12.31 ~  
 > 
 > **사용 언어 : JAVA**
+>
+> **하루에 한 문제 혹은 이틀에 한 문제씩**
+
 <br>
 
 [<img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=dongc9173">](https://solved.ac/profile/dongc9173)
