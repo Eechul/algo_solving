@@ -1,20 +1,24 @@
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-import java.util.Arrays;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 
 public class Main {
 
 	public static void main(String[] args) throws Exception {		
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		int N = Integer.parseInt(br.readLine());
-		int[] seq = new int[N];
+        StringBuilder sb = new StringBuilder();
+		List<Integer> seq = new ArrayList<>();
         
         for(int i=0; i<N; i++) {
-            seq[i] = Integer.parseInt(br.readLine());
+            seq.add(Integer.parseInt(br.readLine()));
         }
-        Arrays.parallelSort(seq);
-        for(int i=0; i<N; i++) {
-            System.out.println(seq[i]);
+        Collections.sort(seq);
+        for(int item : seq) {
+            sb.append(item).append('\n');
         }
+        System.out.println(sb);
 	}
 }
